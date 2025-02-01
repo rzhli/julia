@@ -27,8 +27,8 @@ jobs:
 
       - name: Merge Changes into Local Branch
         run: |
-          git checkout main  # Replace with your branch name if different
+          git checkout master  # Replace with your branch name if different
           git merge upstream/master
 
       - name: Push Changes to Fork
-        run: git push origin main
+        run: git push origin master
